@@ -1,0 +1,52 @@
+body {
+
+}
+
+h1 {
+    font-family: helvetica;
+    color: white;
+    font-size: larger;
+}
+
+h2 {
+    font-family: helvetica;
+    color: white;
+    font-size: medium;
+}
+
+p {
+    font-family: helvetica neue;
+    font-size: small;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+
+header {
+    background-color: green;
+}
+
+img {
+    width: 40vh;
+    height: 30vh;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 10px solid black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.dalì {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
