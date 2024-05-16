@@ -1,0 +1,402 @@
+body {
+    background: linear-gradient(90deg, #010218 0%, #07285B 100%);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.monogram {
+    width: 64.353px;
+    height: 64.353px;
+}
+
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    
+}
+
+.project {
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 80px;
+}
+
+.project, img {
+    width: 315px;
+    height: 217px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.39) 0%, rgba(0, 0, 0, 0.39) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+
+.text {
+    /* border: 1px solid green; */
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+nav {
+    align-self: center;
+    /* border: 1px solid pink; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid green; */
+}
+
+nav ul li {
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 23px;
+    
+}
+
+
+.logo {
+    /* border: 1px solid orange; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-bottom: -50px;
+    
+}
+
+.monogram, h2 {
+    font-weight: 400;
+    
+    
+
+}
+
+.logo img {
+    background: none;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    line-height: 0.1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    /* border: 1px solid navajowhite; */
+    height: 140vh;
+}
+
+/*  */
+
+.img1 {
+    position: relative;
+    display: inline-block;
+}
+
+.img1 img {
+    display: block;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.img1 h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+/*  */
+
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  */
+
+.img2 {
+    position: relative;
+    display: inline-block;
+}
+
+.img2 img {
+    display: block;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.img2 h2 {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+/*  */
+
+.img3 {
+    position: relative;
+    display: inline-block;
+}
+
+.img3 img {
+    display: block;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.img3 h2 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+footer {
+    /* border: 1px solid yellow; */
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+
+}
+
+
+
+@media (min-width: 600px) and (max-width: 2240px) {
+    .logo {
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+    
+    .name {
+        display: flex;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: 0px;
+        margin-top: -90px;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main p {
+        width: 440px;
+    }
+
+    .project {
+        margin-right: 0;
+    }
+
+
+
+
+  }
+
+  h5 {
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons svg {
+    margin-right: 20px;
+}
+
+.fotografia {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    height: 50%;
+    /* border: 1px solid green; */
+}
+
+.fotografia h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  
+}
+
+.contaminazioni {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    /* border: 1px solid red; */
+    width: 90vw;
+    height: auto;
+}
+
+.contaminazioni img {
+    margin-bottom: 20px;
+    width: 164px;
+    height: 164px;
+    flex-shrink: 0;
+    margin: auto;
+
+    
+}
+
+
+/* media query fotografia */
+@media (min-width: 600px) and (max-width: 2240px) {
+    .fotografia {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        margin-left: 30px;
+        margin-right: auto;
+
+    }
+
+    .contaminazioni {
+        display: grid;
+        grid-template-areas: 1fr 1fr;
+        width: 400px;
+        margin-right: 50px;
+        margin-left: auto;
+        height: auto;
+        margin-top: -350px;
+
+
+    }
+    }
+
+
+    /*  */
+
+    .animazione {
+        /* border: 1px solid green; */
+
+
+    }
+
+
+    .animationp {
+        font-family: Arial, Helvetica, sans-serifx;
+    }
+
+    .animazionep, h3 {
+        font-size: 24px;
+    }
+
+/* media query animazione */
+
+@media (min-width: 600px) and (max-width: 2240px) {
+    .animazione {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .animazione video {
+        width: 40vw;
+        height: auto;
+        margin-top: -700px;
+        
+    }
+    }
+
+
+    .ixd {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
