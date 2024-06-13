@@ -399,7 +399,7 @@ main p {
 .mainfotografia p {
   display: flex;
   position: static;
-  font-size: 13px;
+  font-size: 20px;
   width: 370px;
 }
 
